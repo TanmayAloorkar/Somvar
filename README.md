@@ -33,9 +33,9 @@ The completed run used Broad GRCh38, BQSR, Mutect2, VEP 116, MultiQC 1.35, and 1
 
 | Threads per task | CPUs for two concurrent tasks plus headroom | Suggested RAM |
 | --- | --- | --- |
-| 4 (default) | 9 | 24 GB |
+| 4 (default) | 9 | 16-20 GB |
 | 8 | 17 | 32 GB |
-| 12 | 25 | 48 GB |
+| 12 | 25 | 48 or more GB |
 
 These are planning estimates; 8- and 12-thread configurations have not been benchmarked. `--threads` applies per task. Most tasks request 4 GB; BWA, BAM processing, and BQSR request 10 GB, Mutect2 14 GB, and VEP 8 GB. VEP uses at most four forks; reporting tasks use one CPU.
 
