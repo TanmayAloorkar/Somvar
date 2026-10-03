@@ -1,0 +1,79 @@
+# Nextflow execution files and published outputs
+/.nextflow*
+/work/
+/results/
+/logs/
+/pipeline_info/
+
+# Local datasets and downloaded reference bundles
+/data/
+/references/*
+!/references/download_sources.txt
+
+# Sequencing reads
+*.fastq
+*.fastq.gz
+*.fastq.bz2
+*.fastq.xz
+*.fq
+*.fq.gz
+*.fq.bz2
+*.fq.xz
+
+# Alignments, variant calls, and their indexes
+*.sam
+*.bam
+*.bai
+*.cram
+*.crai
+*.vcf
+*.vcf.gz
+*.vcf.bgz
+*.bcf
+*.tbi
+*.csi
+*.idx
+
+# Genome sequences and BWA indexes
+*.fa
+*.fa.gz
+*.fasta
+*.fasta.gz
+*.fna
+*.fna.gz
+*.fai
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
+
+# Local environments and Python caches
+.conda/
+.venv/
+venv/
+env/
+envs/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editor, operating-system, and temporary files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
+
+# Local environment variables; example configurations can be shared
+.env
+.env.*
+!.env.example
+
+# Keep environment.yml and conda-*-linux-64.lock.txt for reproducibility.

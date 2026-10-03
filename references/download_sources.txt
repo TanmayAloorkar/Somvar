@@ -1,0 +1,99 @@
+Somvar reference download sources
+
+
+Broad hg38 reference files
+Source folder: https://console.cloud.google.com/storage/browser/gcp-public-data--broad-references/hg38/v0
+
+Homo_sapiens_assembly38.fasta
+https://storage.googleapis.com/gcp-public-data--broad-references/hg38/v0/Homo_sapiens_assembly38.fasta
+
+Homo_sapiens_assembly38.fasta.fai
+https://storage.googleapis.com/gcp-public-data--broad-references/hg38/v0/Homo_sapiens_assembly38.fasta.fai
+
+Homo_sapiens_assembly38.dict
+https://storage.googleapis.com/gcp-public-data--broad-references/hg38/v0/Homo_sapiens_assembly38.dict
+
+VEP annotation cache (stored outside the Somvar project)
+File: homo_sapiens_vep_116_GRCh38.tar.gz
+URL: https://ftp.ensembl.org/pub/release-116/variation/indexed_vep_cache/homo_sapiens_vep_116_GRCh38.tar.gz
+Local archive: /home/tanmay/references/vep/homo_sapiens_vep_116_GRCh38.tar.gz
+Extracted cache: /home/tanmay/references/vep/homo_sapiens/116_GRCh38/
+Downloaded by the user; extracted metadata verified on 2026-10-01.
+Details are consolidated in this file.
+
+Broad hg38/v0 known-sites files for Somvar BQSR
+Reference: Homo_sapiens_assembly38.fasta from the same hg38/v0 bundle
+Source folder: https://console.cloud.google.com/storage/browser/gcp-public-data--broad-references/hg38/v0
+Downloaded: 2026-09-28
+
+The MD5 values below are from Google Cloud Storage object metadata.
+
+Homo_sapiens_assembly38.dbsnp138.vcf.gz
+URL: https://storage.googleapis.com/gcp-public-data--broad-references/hg38/v0/Homo_sapiens_assembly38.dbsnp138.vcf.gz
+Size: 1560889937 bytes
+MD5: 110aaeb8130bf4edb544a72d2c7829f7
+
+Homo_sapiens_assembly38.dbsnp138.vcf.gz.tbi
+URL: https://storage.googleapis.com/gcp-public-data--broad-references/hg38/v0/Homo_sapiens_assembly38.dbsnp138.vcf.gz.tbi
+Size: 2321422 bytes
+MD5: d77e60d4520f27493a1a2c13c88b7626
+
+Homo_sapiens_assembly38.known_indels.vcf.gz
+URL: https://storage.googleapis.com/gcp-public-data--broad-references/hg38/v0/Homo_sapiens_assembly38.known_indels.vcf.gz
+Size: 61692306 bytes
+MD5: 14cc588a271951ac1806f9be895fb51f
+
+Homo_sapiens_assembly38.known_indels.vcf.gz.tbi
+URL: https://storage.googleapis.com/gcp-public-data--broad-references/hg38/v0/Homo_sapiens_assembly38.known_indels.vcf.gz.tbi
+Size: 1567886 bytes
+MD5: 1a55fdfa6533ae5cbc70e8188e779229
+
+Mills_and_1000G_gold_standard.indels.hg38.vcf.gz
+URL: https://storage.googleapis.com/gcp-public-data--broad-references/hg38/v0/Mills_and_1000G_gold_standard.indels.hg38.vcf.gz
+Size: 20685880 bytes
+MD5: 2e02696032dcfe95ff0324f4a13508e3
+
+Mills_and_1000G_gold_standard.indels.hg38.vcf.gz.tbi
+URL: https://storage.googleapis.com/gcp-public-data--broad-references/hg38/v0/Mills_and_1000G_gold_standard.indels.hg38.vcf.gz.tbi
+Size: 1500013 bytes
+MD5: 4c807e2cbe0752c0c44ac82ff3b52025
+
+GATK common-SNP resource for GRCh38 contamination estimation
+Source links and expected MD5 checksums verified on 1 October 2026.
+Files are downloaded by the user using the reference preparation commands in README.md.
+
+File: small_exac_common_3.hg38.vcf.gz
+URL: https://storage.googleapis.com/gatk-best-practices/somatic-hg38/small_exac_common_3.hg38.vcf.gz
+Size: 1297183 bytes
+MD5: 4c75c1755a45c64e8af7784db7fde009
+
+File: small_exac_common_3.hg38.vcf.gz.tbi
+URL: https://storage.googleapis.com/gatk-best-practices/somatic-hg38/small_exac_common_3.hg38.vcf.gz.tbi
+Size: 242095 bytes
+MD5: f650d1dda6bd68cba65d77f131147985
+
+VCF metadata: https://storage.googleapis.com/storage/v1/b/gatk-best-practices/o/somatic-hg38%2Fsmall_exac_common_3.hg38.vcf.gz
+Index metadata: https://storage.googleapis.com/storage/v1/b/gatk-best-practices/o/somatic-hg38%2Fsmall_exac_common_3.hg38.vcf.gz.tbi
+
+Ensembl VEP annotation resources
+Source URLs verified on 1 October 2026. These are setup/download links;
+VEP release 116 was installed and used in the completed pipeline test. The user downloaded and extracted the cache;
+its metadata were checked on 1 October 2026.
+
+Software: Ensembl VEP release 116
+Repository: https://github.com/Ensembl/ensembl-vep
+Branch: release/116
+Installer: https://github.com/Ensembl/ensembl-vep/blob/release/116/INSTALL.pl
+
+Cache: homo_sapiens_vep_116_GRCh38.tar.gz
+URL: https://ftp.ensembl.org/pub/release-116/variation/indexed_vep_cache/homo_sapiens_vep_116_GRCh38.tar.gz
+Directory listing size: approximately 26 GB compressed
+Directory: https://ftp.ensembl.org/pub/release-116/variation/indexed_vep_cache/
+Ensembl checksum listing: https://ftp.ensembl.org/pub/release-116/variation/indexed_vep_cache/CHECKSUMS
+
+Reference FASTA: existing references/hg38_broad_v0/Homo_sapiens_assembly38.fasta
+No additional annotation FASTA is downloaded by these instructions.
+
+Local archive: /home/tanmay/references/vep/homo_sapiens_vep_116_GRCh38.tar.gz
+Extracted cache: /home/tanmay/references/vep/homo_sapiens/116_GRCh38/
+Metadata verified: species homo_sapiens; assembly GRCh38; source assembly GRCh38.p14

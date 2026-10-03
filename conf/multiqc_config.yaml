@@ -1,0 +1,21 @@
+title: "Somvar quality control"
+report_comment: "Matched tumor and normal analysis. Raw and clean reads are reported separately."
+show_analysis_paths: false
+data_dir_name: "multiqc_data"
+module_order:
+  - fastqc:
+      name: "FastQC (raw)"
+      anchor: "fastqc_raw"
+      path_filters:
+        - "qc/raw/*"
+        - "*/qc/raw/*"
+  - fastp
+  - fastqc:
+      name: "FastQC (clean)"
+      anchor: "fastqc_clean"
+      path_filters:
+        - "qc/clean/*"
+        - "*/qc/clean/*"
+  - picard
+  - vep
+  - custom_content

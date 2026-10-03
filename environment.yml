@@ -1,0 +1,25 @@
+name: somvar
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.11
+  - nextflow=26.04.6
+  - openjdk=17
+  - fastqc=0.12.1
+  - fastp=0.23.4
+  - bwa=0.7.17
+  - samtools=1.19.2
+  - bcftools=1.19
+  - htslib=1.19
+  - gatk4-main=4.7.0.0
+  - ensembl-vep=116.*
+  - multiqc=1.35
+  - aria2
+  - curl
+  - unzip
+  - bash
+  - coreutils
+  - tar
+  - gzip
