@@ -8,7 +8,6 @@
 # Local datasets and downloaded reference bundles
 /data/
 /references/*
-!/references/download_sources.txt
 
 # Sequencing reads
 *.fastq
